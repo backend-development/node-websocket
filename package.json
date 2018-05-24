@@ -4,12 +4,12 @@
   "description": "a node app that serves static html over http and handles websockets",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.13.4",
-    "socket.io": "^1.4.5"
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
   },
   "devDependencies": {
-    "mocha": "^3.3.0",
-    "should": "^8.3.1"
+    "mocha": "^5.2.0",
+    "should": "^13.2.1"
   },
   "scripts": {
     "start": "node index.js",

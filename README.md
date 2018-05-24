@@ -14,8 +14,8 @@ before starting the app with
 
 for testing, you need to also install mocha and should.js
 
-  sudo npm -g install mocha
-  sudo npm -g install should
+  export NODE_ENV=development
+  npm install
   npm test
 
 

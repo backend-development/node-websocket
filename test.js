@@ -9,7 +9,7 @@ var options ={
       'force new connection': true
 };
 
-describe("Auction Server",function(){
+describe("Poll Server",function(){
   it('Should echo chat massages back to user', function(done){
     var client1 = io.connect(socketURL, options);
 
